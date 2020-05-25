@@ -20,14 +20,14 @@ module.exports = {
       boxShadow: {
         ...defaultTheme.boxShadow,
         default: '2px 2px 0 0 rgba(0, 0, 0, 100)',
-        blue: '2px 2px 0 0 #458FD9',
+        blue: '2px 2px 0 0 #095CDC',
         purple: '2px 2px 0 0 #7A35D2',
         md: '4px 4px 0 0 rgba(0, 0, 0, 100)',
         'purple-lg': '6px 6px 0 0 #7A35D2'
       },
       colors: {
         blue: {
-          500: '#458FD9'
+          500: '#095CDC'
         },
         pink: {
           ...defaultTheme.colors.pink,
@@ -38,7 +38,7 @@ module.exports = {
           800: '#7A35D2'
         },
         teal: {
-          100: '#E4FFFB'
+          100: '#E0FFFA'
         }
       },
       fontFamily: {
