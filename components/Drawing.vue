@@ -2,6 +2,7 @@
   <div class="h-full flex flex-col justify-between">
     <textarea
       v-model="participantsInput"
+      aria-label="Add a comma-separated list of participants ..."
       class="w-full h-full block p-6 font-medium text-blue-500 placeholder-blue-500 bg-teal-100 border-3 border-blue-500 shadow-blue rounded-md focus:outline-none focus:shadow-outline-pink transition ease-in-out duration-150"
       placeholder="Add a comma-separated list of participants ..."
     />
@@ -10,6 +11,7 @@
         <h3 class="text-2xl font-bold text-purple-800">Number of winners</h3>
         <div class="flex items-center">
           <button
+            aria-label="Decrement number of winners"
             :disabled="!canDecrementNumberOfWinners"
             :class="
               canDecrementNumberOfWinners
@@ -32,6 +34,7 @@
             numberOfWinners
           }}</span>
           <button
+            aria-label="Increment number of winners"
             type="button"
             class="h-8 w-8 p-1 border-3 rounded-md bg-pink-500 border-purple-800 shadow-purple text-purple-800 focus:outline-none focus:shadow-outline-pink hover:translate-x-2px hover:translate-y-2px focus:translate-x-2px focus:translate-y-2px hover:shadow-none focus:shadow-none transform transition ease-in-out duration-150"
             @click="incrementNumberOfWinners"
@@ -48,6 +51,7 @@
       </div>
       <div class="mt-12">
         <button
+          aria-label="Draw the winners"
           :disabled="!canPickWinners"
           :class="
             canPickWinners ? 'opacity-100' : 'opacity-50 cursor-not-allowed'
