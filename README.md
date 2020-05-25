@@ -1,6 +1,6 @@
-# pickawinner
+# Raffy
 
-> My top-notch Nuxt.js project
+> A simple and fun raffle drawing app
 
 ## Build Setup
 
