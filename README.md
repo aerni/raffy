@@ -1,6 +1,6 @@
 # Raffy
 
-> A simple and fun raffle drawing app
+> Easily draw a winner for your raffle
 
 ## Build Setup
 
