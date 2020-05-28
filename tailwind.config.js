@@ -38,7 +38,9 @@ module.exports = {
           800: '#7A35D2'
         },
         teal: {
-          100: '#E0FFFA'
+          ...defaultTheme.colors.teal,
+          100: '#E0FFFA',
+          400: '#5AFADF'
         }
       },
       fontFamily: {
