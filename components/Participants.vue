@@ -4,7 +4,7 @@
       v-model="participants"
       aria-label="Add a comma-separated list of participants ..."
       class="w-full flex-1 p-4 lg:p-6 font-medium text-blue-500 placeholder-blue-500 bg-teal-100 border-3 border-blue-500 shadow-blue rounded-md focus:outline-none focus:shadow-outline-pink transition ease-in-out duration-150"
-      placeholder="Add a comma-separated list of participants ..."
+      placeholder="Add a list of participants ..."
     />
   </div>
 </template>

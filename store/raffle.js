@@ -46,10 +46,11 @@ export const actions = {
     commit('DECREMENT_WINNERS_COUNT')
   },
   setParticipants({ commit }, payload) {
-    const participantsArray = payload.split(',')
-    const filteredParticipants = participantsArray.filter(
-      (entry) => entry.trim() !== ''
-    )
-    commit('SET_PARTICIPANTS', filteredParticipants)
+    const participantsArray = payload.split(/[\n,;.:]+/)
+    const filtered = participantsArray
+      .map((entry) => entry.trim())
+      .filter((entry) => entry.trim() !== '')
+
+    commit('SET_PARTICIPANTS', filtered)
   }
 }
