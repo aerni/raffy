@@ -61,5 +61,11 @@ export default {
      ** You can extend webpack config here
      */
     extend(config, ctx) {}
+  },
+  /*
+   ** Configure the sitemaps
+   */
+  sitemap: {
+    hostname: 'https://raffy.now.sh'
   }
 }
