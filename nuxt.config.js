@@ -17,6 +17,14 @@ export default {
         content: 'Easily draw a winner for your raffle'
       }
     ],
+    script: [
+      {
+        src: 'https://cdn.usefathom.com/script.js',
+        'data-site': 'JKDTOMBJ',
+        'data-spa': 'auto',
+        defer: true
+      }
+    ],
     link: [
       { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
       {
